@@ -1,0 +1,12 @@
+DRRAS/  
+├── core/  
+│   ├── graph_engine.cpp       # Road network with traffic modeling  
+│   ├── priority_manager.cpp   # Max-heap based request triage  
+│   └── resource_allocator.cpp # Knapsack DP implementation  
+├── modules/  
+│   ├── alert_system/          # Multilingual notifications  
+│   └── volunteer_mgr/         # Greedy matching algorithm  
+├── tests/                     # Google Test cases  
+└── docs/  
+    ├── SYSTEM_DESIGN.md       # Detailed architecture  
+    └── API_REFERENCE.md       # Core class documentation  
